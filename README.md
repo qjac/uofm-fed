@@ -13,6 +13,7 @@
 10. The footer should contain icon links to facebook and twitter. The URLs need not point to specific pages.
 11. Use Less or Sass to construct your CSS
 
+## Mockups
 ![alt text](https://github.com/qjac/uofm-fed/blob/master/docs/Mobile.png "Mobile Mockup")
 
 ![alt text](https://github.com/qjac/uofm-fed/blob/master/docs/Home.png "Desktop Mockup")
