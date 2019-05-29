@@ -1,7 +1,7 @@
 # University of MN Front-End Web Developer
 
 ## To Do
-1. An HTML5 page containing a header region, body region, and footer region
+✓ An HTML5 page containing a header region, body region, and footer region
 2. The header region should contain a full-width background image of your choice
 3. The title should be your name in white with a drop shadow and be 80% of the page width
 4. The body region should contain six cat pictures in a grid of 3 columns and 2 rows
@@ -13,7 +13,7 @@
 10. The footer should contain icon links to facebook and twitter. The URLs need not point to specific pages.
 11. Use Less or Sass to construct your CSS
 
-## Mockups
+## Mockups 
 ![alt text](https://github.com/qjac/uofm-fed/blob/master/docs/Mobile.png "Mobile Mockup")
 
 ![alt text](https://github.com/qjac/uofm-fed/blob/master/docs/Home.png "Desktop Mockup")
