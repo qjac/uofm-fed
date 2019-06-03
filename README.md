@@ -10,7 +10,7 @@
 ✓ The first should be labeled "Borders" and toggle a border that is "nicer in some way" on each of the the six images  
 ✓ The second should be labeled "Reverse" and should reverse the order of the six images  
 ✓ The footer region should contain a copyright statement  
-✓ The footer should contain icon links to facebook and twitter. The URLs need not point to specific pages. 
+✓ The footer should contain icon links to facebook and twitter. The URLs need not point to specific pages.  
 ✓ Use Less or Sass to construct your CSS  
 
 ## Mockups 
