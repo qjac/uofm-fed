@@ -1,0 +1,27 @@
+{
+  "name": "uofm-fed",
+  "version": "1.0.0",
+  "description": "Coding challenge",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "compile": "node-sass scss/main.scss css/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qjac/uofm-fed.git"
+  },
+  "keywords": [],
+  "author": "Jacqueline Quintanilla <hello@qjac.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qjac/uofm-fed/issues"
+  },
+  "homepage": "https://github.com/qjac/uofm-fed#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
