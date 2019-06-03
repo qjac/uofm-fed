@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "compile": "node-sass scss/main.scss css/styles.css --watch",
+    "compile": "node-sass scss/styles.scss css/styles.css --watch --output-style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
