@@ -23,11 +23,11 @@ footer {
         }
 
         a {
-            text-decoration: none;
             height: 100%;
+            text-decoration: none;
         }
 
-        .social-icon {
+        svg.social-icon {
             margin: 0 0.5em;
             transition: $hover-transition;
             max-width: 50px;
@@ -35,11 +35,8 @@ footer {
             &:active,
             &:focus,
             &:hover {
-                path {
                     fill: $color-white;
-                }
             } 
         }
-
-    }
+    } // end .social styles
 } //end footer styles
