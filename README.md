@@ -4,8 +4,8 @@
 ✓ An HTML5 page containing a header region, body region, and footer region  
 ✓ The header region should contain a full-width background image of your choice  
 ✓ The title should be your name in white with a drop shadow and be 80% of the page width  
-4. The body region should contain six cat pictures in a grid of 3 columns and 2 rows  
-5. On mobile, the images should collapse to a single column  
+✓ The body region should contain six cat pictures in a grid of 3 columns and 2 rows  
+✓ On mobile, the images should collapse to a single column  
 ✓ Two buttons should follow the images  
 7. The first should be labeled "Borders" and toggle a border that is "nicer in some way" on each of the the six images  
 8. The second should be labeled "Reverse" and should reverse the order of the six images  

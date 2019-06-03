@@ -2,6 +2,8 @@
     UTILITY
     - Reset & normalize
     - Variables
+        - Breakpoints
+        - Colors
  -----------------------------------*/
  
 ////////////////////////////////////////
@@ -10,6 +12,7 @@
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
     margin: 0;
@@ -23,4 +26,10 @@ img {
 ////////////////////////////////////////
 // Variables
 ////////////////////////////////////////
+/* Breakpoints */
+$break-sm: 500px;
+
+/* Colors */
 $color-white: #ffffff;
+$color-black: #000000;
+$color-bright: #e2088b;

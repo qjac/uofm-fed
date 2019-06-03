@@ -1,0 +1,49 @@
+/*------------------------------------
+    MAIN content area
+    - Cat gallery
+    - Buttons
+ -----------------------------------*/
+ 
+main {
+    text-align: center;
+////////////////////////////////////////
+// Gallery
+//////////////////////////////////////// 
+    .gallery {
+        display: grid;
+            gap: 1rem;
+        padding: 1rem 2rem;
+
+        @media (min-width: $break-sm) { 
+            grid-template-columns: repeat( 3, 1fr );
+        }
+    } //end .gallery
+
+    .gallery img {
+        border: 1px solid $color-black;
+
+        &.border-fancy {
+            border: 20px double $color-bright; // toggle border style
+        }
+    } //end .gallery img
+    
+////////////////////////////////////////
+// Buttons
+//////////////////////////////////////// 
+    button {
+        background: $color-white;
+        border: 4px solid $color-bright;
+        color: $color-black;
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin: 1em;
+        padding: 1em 1.5em;
+        
+        &:active,
+        &:focus,
+        &:hover {
+           background: $color-bright;
+           color: $color-white;
+        }
+    } // end button
+} // end main
