@@ -5,6 +5,7 @@
  -----------------------------------*/
  
 main {
+    padding: $container-padding;
     text-align: center;
 ////////////////////////////////////////
 // Gallery
@@ -12,8 +13,7 @@ main {
     .gallery {
         display: grid;
             gap: 1rem;
-        padding: 1rem 2rem;
-
+        
         @media (min-width: $break-sm) { 
             grid-template-columns: repeat( 3, 1fr );
         }
@@ -21,6 +21,7 @@ main {
 
     .gallery img {
         border: 1px solid $color-black;
+        transition: $hover-transition;
 
         &.border-fancy {
             border: 20px double $color-bright; // toggle border style
@@ -36,8 +37,9 @@ main {
         color: $color-black;
         font-size: 1.25rem;
         font-weight: bold;
-        margin: 1em;
+        margin: 1em 1em 0;
         padding: 1em 1.5em;
+        transition: $hover-transition;
         
         &:active,
         &:focus,

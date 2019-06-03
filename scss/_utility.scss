@@ -4,6 +4,8 @@
     - Variables
         - Breakpoints
         - Colors
+        - Padding
+        - Transitions
  -----------------------------------*/
  
 ////////////////////////////////////////
@@ -33,3 +35,9 @@ $break-sm: 500px;
 $color-white: #ffffff;
 $color-black: #000000;
 $color-bright: #e2088b;
+
+/* Container Padding */
+$container-padding: 1rem 2rem;
+
+/* Transitions */
+$hover-transition: all 0.75s ease-in-out;
