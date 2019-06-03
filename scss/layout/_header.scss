@@ -1,0 +1,28 @@
+/*------------------------------------
+    HEADER section specific styles
+    - Container
+    - 
+ -----------------------------------*/
+ 
+////////////////////////////////////////
+// Container
+////////////////////////////////////////
+ header {
+    background-image: url(../images/JQ-backdrop-opt.jpg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-attachment: fixed;
+        background-size: cover;  
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    height: 20vh;
+        min-height: 100px;
+
+    h1 {
+        color: $color-white;
+        filter: drop-shadow(0px 0px 10px rgba(0,0,0,.8));
+        text-align: center;
+        width: 80%;
+    }
+ } // end header styles

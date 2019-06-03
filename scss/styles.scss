@@ -1,0 +1,8 @@
+/* Base Styles */
+@import 'utility'; // reset, variables
+@import 'grid'; // main base layout
+
+/* Layout Styles */
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
