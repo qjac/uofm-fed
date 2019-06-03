@@ -27,15 +27,17 @@ footer {
             height: 100%;
         }
 
-        svg.social-icon {
+        .social-icon {
             margin: 0 0.5em;
             transition: $hover-transition;
-            max-width: 60px;
+            max-width: 50px;
 
             &:active,
             &:focus,
             &:hover {
-                fill: $color-white;
+                path {
+                    fill: $color-white;
+                }
             } 
         }
 
